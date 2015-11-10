@@ -1,18 +1,16 @@
-def beginning
+def beginning(a)
 	intro = "Let's get this math party started!  Pick one: 'add', 'subtract', 'multiply', 'divide','find the remainder'"
 
     puts intro
 end
+	mathtype = gets.chomp
 
-puts beginning
-mathtype = gets.chomp
-
-if mathtype=="add" or mathtype=="subtract" or mathtype=="multiply" or mathtype=="divide"
-  puts "hell yeah!"
-else
-  puts "Dude.   Seriously?   Let's try again..."
-  puts intro
-end
+	if mathtype=="add" or mathtype=="subtract" or mathtype=="multiply" or mathtype=="divide"
+	  puts "hell yeah!"
+	else
+	  puts "Dude.   Seriously?   Let's try again..."
+	  puts intro
+    end
 
 
 puts beginning(mathtype)

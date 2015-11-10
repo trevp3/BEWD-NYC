@@ -7,6 +7,7 @@ def divide(a,b)
 	(a*1.0000)/(b*1.0000)
 end
 
+
 def add(a,b)
 	a+b
 end
