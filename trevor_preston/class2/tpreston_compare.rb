@@ -1,4 +1,4 @@
-puts "enter a whole number, and I'll let you know if it's even or odd!"
+getsputs "enter a whole number, and I'll let you know if it's even or odd!"
 
 usernum = gets.chomp.to_i
 
