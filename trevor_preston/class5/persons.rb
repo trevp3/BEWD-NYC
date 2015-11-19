@@ -22,18 +22,18 @@ class Person
 end
 
 
-Charlie_Brown = Person.new("Charlie Brown", "3 foot 4 inches", "easily", 2)
-Linus = Person.new("Linus", "2 feet", "He doesn't wear shoes", 12)
-Sally = Person.new("Sally", "6 feet", "Fosho", 6)
+#Charlie_Brown = Person.new("Charlie Brown", "3 foot 4 inches", "easily", 2)
+#Linus = Person.new("Linus", "2 feet", "He doesn't wear shoes", 12)
+#Sally = Person.new("Sally", "6 feet", "Fosho", 6)
 
 
-people = [Charlie_Brown, Linus, Sally]
+#people = [Charlie_Brown, Linus, Sally]
 
-people.each do |dudes|
-	puts dudes
-	if dudes.big_feet? == true
-		puts "big foot!!"
-	else 
-		puts "small foot!!"
-	end
-end
+#people.each do |dudes|
+#	puts dudes
+#	if dudes.big_feet? == true   
+#		puts "big foot!!"
+#	else 
+#		puts "small foot!!"
+#	end
+#end
