@@ -1,0 +1,5 @@
+<ul>
+<% @companies.each do |c| %>
+	<li>Name: <%=c.name%> | Market Cap: <%= c.market_capitalization %> </li>
+<% end %>
+</ul>

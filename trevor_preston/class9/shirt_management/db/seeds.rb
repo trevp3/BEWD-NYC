@@ -11,4 +11,4 @@ Tshirt.create(color: "red", size: "xxl", rating: 3)
 
 Tshirt.create(color: "blahblahblah", size: "equator", rating: 100000)
 
-puts "all done!"
+puts "all done!

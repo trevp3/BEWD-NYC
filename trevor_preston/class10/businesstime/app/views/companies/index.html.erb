@@ -1,0 +1,5 @@
+<ul>
+<% @companies.each do |c| %>
+	<li><%=c.id%> | Market Cap: <%= c.market_capitalization %> | <%= link_to c.name, c %> </li>
+<% end %>
+</ul>
