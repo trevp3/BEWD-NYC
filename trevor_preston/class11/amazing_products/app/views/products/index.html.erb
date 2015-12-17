@@ -1,0 +1,7 @@
+
+<% @products.each do |x| %>
+  <p><%= link_to x.name, x %></p>    <!-- when you click on product name, go to url 'x' -->
+<% end %>
+
+
+<p> <%= link_to "New product", new_product_path %> </p>
