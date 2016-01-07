@@ -1,0 +1,6 @@
+<h2> <%= @course.name %> </h2>
+
+
+<p> Course: <%= @course.name%> </p> 
+<p> Instructor: <%= @course.instructor.name %> </p>
+<p><%= link_to "Roster", course_students_path(@course) %></p>
