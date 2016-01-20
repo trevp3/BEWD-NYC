@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blogr</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+    <%= render "layouts/nav" %>
+
+
+
+
+
+<div class="container">
+<div class="row">
+ <div class="col-md-8">
+   <%= yield %>
+ </div>
+
+<div class="col-md-4">
+<% if notice %>
+  <p><%= notice %></p>
+<% end %>
+<% if alert %>
+  <p><%= alert %></p>
+<% end %>
+  
+  <% current_user %>
+  </div>
+
+</div>
+</div>
+</body>
+</html>
